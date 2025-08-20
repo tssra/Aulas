@@ -90,5 +90,5 @@ console.log (v1 !== v2);
 var num = prompt ("Digite um número: ")
 var num2 = prompt ("Digite outro número: ")
 
-var resultado = num + num2
-prompt ("O resultado é: ", resultado)
+var resultado = Number(num) + Number(num2)
+console.log(resultado)
