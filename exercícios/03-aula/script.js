@@ -53,16 +53,16 @@
 // calcularidade(18)
 
 //ex dos valores
-function maior(valor1, valor2){
-if (valor1 > valor2){
-    console.log("O primeiro valor é maior")}
-    else if(valor1 > valor2){
-console.log("O segundo valor é maior")
-    }
-    else{
-        console.log("Os valores são iguais")
-    }
-}
+// function maior(valor1, valor2){
+// if (valor1 > valor2){
+//     console.log("O primeiro valor é maior")}
+//     else if(valor1 > valor2){
+// console.log("O segundo valor é maior")
+//     }
+//     else{
+//         console.log("Os valores são iguais")
+//     }
+// }
 
 var numero1 = prompt("Digite o primeiro número: ")
 var numero2 = prompt ("Digite o segundo número: ")
@@ -74,6 +74,5 @@ function soma(valor1, valor2){
     let resultado = valor1 + valor2
     return resultado
 }
-
-soma(7,6)
-console.log(resultado)
+var valorsomado = soma(7,6)
+console.log("A soma deu: ", valorsomado)
