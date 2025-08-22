@@ -1,11 +1,13 @@
 senha = prompt("Digite sua senha:")
-function outset(){
+inicio()
+
+function inicio(){
 if(senha = 1234){
-   prompt("Você pode acessar. Seja bem-vindo!")
+   prompt("Seja bem-vindo!")
    var operacao = prompt("Qual operação você deseja realizar? (Saque ou Depósito? Digite S ou D")
    var saldo = 1000
 
-   switch (operacao){
+   switch (operacao){ //operações
 
     case "S":
     var saldoS = prompt("Qual valor você deseja sacar? Você tem 1000 reais.")
@@ -13,8 +15,8 @@ if(senha = 1234){
     break //finished
 
     case "D":
-    var saldoD = prompt("Qual valor você deseja depositar?")
-    saldo = saldo + saldoD //ta meio wrong
+    var Number(saldoD) = prompt("Qual valor você deseja depositar?")
+    saldo = Number(saldo) + Number(saldoD) //ta meio wrong
     break
    }
 
@@ -36,6 +38,7 @@ again()
 }
 
 function again(){
-prompt("Seu saldo é R$", saldo)
-outset()
+inicio()
 }
+
+//parou de funcionar
