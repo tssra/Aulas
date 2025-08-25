@@ -1,10 +1,9 @@
-senha = prompt("Digite sua senha:")
-inicio()
 
 function inicio(){
+senha = prompt("Digite sua senha:")
 if(senha = 1234){
-   prompt("Seja bem-vindo!")
-   var operacao = prompt("Qual operação você deseja realizar? (Saque ou Depósito? Digite S ou D")
+   alert("Seja bem-vindo!")
+   var operacao = prompt("Qual operação você deseja realizar? (Saque ou Depósito?) Digite S ou D")
    var saldo = 1000
 
    switch (operacao){ //operações
@@ -12,28 +11,32 @@ if(senha = 1234){
     case "S":
     var saldoS = prompt("Qual valor você deseja sacar? Você tem 1000 reais.")
     saldo = saldo - saldoS
-    break //finished
+    prompt("Seu saldo agora é de R$", saldo)
+    break 
 
     case "D":
-    var Number(saldoD) = prompt("Qual valor você deseja depositar?")
-    saldo = Number(saldo) + Number(saldoD) //ta meio wrong
+    var saldoD = Number(prompt("Qual valor você deseja depositar?"))
+    saldo = Number(saldo) + Number(saldoD)
+    prompt("Seu saldo agora é de R$", saldo)
     break
    }
 
-   prompt("Seu saldo agora é de R$", saldo)
+continuar()
 
-   continuar()
+else { //erro?
+ alert("Senha inorreta.")
 }
-
-else{
-    prompt("Senha inorreta.")
 }
 }
 function continuar(){
     var opc = prompt("Deseja continuar a operação? Digite S para sim.")
 
     if(opc = "S"){
-again()
+     again()
+    }
+
+    else{
+     console.log("Finalizado.")   
     }
 }
 
@@ -41,4 +44,4 @@ function again(){
 inicio()
 }
 
-//parou de funcionar
+inicio()
