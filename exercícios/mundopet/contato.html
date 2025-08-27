@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo pet - Contato</title>
-    <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./documentos/imgs/imagens-aua4/favicon.png" type="image/x-icon">
+      <link rel="stylesheet" type="text/css"  href="css/estilo.css">
 </head>
 <body>
    <header>
+     <div id="container">
     <a href="index.html">
 <img src="./documentos/imgs/imagens-aua4/img-logo.png" alt="Logo Mundo Pet" title="Logo Mundo Pet" width="200">
 </a>
-<nav>
+<nav id="menu-principal">
     <ul>
       <li><a href="./index.html">Home</a></li>
       <li><a href="./sobre.html">Sobre</a></li>
@@ -19,13 +21,35 @@
       <li><a href="./contato.html">Contato</a></li>
     </ul>
 </nav>
+</div>
    </header>
 
    <main>
     <h1>Contatos</h1>
     <p>Olá! Se você tiver alguma dúvida, sugestão ou agendar um horário para o seu amado pet, preencha o formulário abaixo e entraremos em contato o mais breve possível. Teremos o maior prazer em atendê-lo!</p>
 
-    <form action=""></form>
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" required id="nome" >
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required id="email">
+
+           <label for="tel">Telefone:</label>
+        <input type="tel" name="telefone" required id="tel">
+
+           <label for="assunto">Assunto:</label>
+        <input type="assunto" name="assunto" required id="assunto">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+
+        <input type="submit" name="enviar">
+    </form>
+
+    <div id="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14967.103971780685!2d-40.29838836213381!3d-20.309537179952283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817bf521a9175%3A0xdc6d4e4b6279d6ca!2sPraia%20da%20Curva%20da%20Jurema!5e0!3m2!1spt-BR!2sbr!4v1756313991600!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
    </main>
 
    <footer>
