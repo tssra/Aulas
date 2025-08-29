@@ -44,6 +44,18 @@ border-bottom: solid #554023 1px;
 transition: all 0.3s ease;
 }
 
+.item-produto{
+    width: 295px;
+    float: left;
+    background-color: #554023;
+    min-height: 350px;
+}
+
+.item-produto img{
+    width: 100%;
+    margin: 10px;
+}
+
 
 
 
