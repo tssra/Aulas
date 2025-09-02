@@ -23,3 +23,4 @@ idade: 23,
     console.log("Olá, meu nome é", pessoa.nome, "e tenho ", pessoa.idade, "anos")},
 }
 pessoa.apresentar()
+

@@ -1,7 +1,6 @@
 console.log("lala")
 
 //com array
-
 var alunos = ["Pedro", "Tiago", "João"]
 var media = [7,8,6]
 

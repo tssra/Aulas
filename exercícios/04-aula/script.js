@@ -1,38 +1,38 @@
 console.log("Hi")
 
-//VETOR = array
-//um lugarpara guardar varias coisas de uma "classe"
+// VETOR = array
+// um lugar para guardar varias coisas de uma "classe"
 
 // var alunos [finge que tem nomes aqui] 
-    //deu wrong aqui
+//     deu wrong aqui
 
-//mostra todos os elementos do array
+// mostra todos os elementos do array
 // console.log(alunos)
 
-//mostra uma posição específica
+// mostra uma posição específica
 // console.log(alunos[2])
 
-//troca um valor
+// troca um valor
 // alunos [3] = finge que tem mais um nome aqui
 
-//array com valores de vários tipos
-// var aleat = ["Roda gigante", 8, "Frio", 7, 2, true]
+// array com valores de vários tipos
+var aleat = ["Roda gigante", 8, "Frio", 7, 2, true]
 
-// //loop pra mostrar todos os valores
-// for(var i = 0; i < 6; i++){
-// console.log(aleat[i])
-// }
+//loop pra mostrar todos os valores
+for(var i = 0; i < 6; i++){
+console.log(aleat[i])
+}
 
-// for(var i = 0; i < aleat.length; i++){
-//     console.log(aleat[i])
-// }
+for(var i = 0; i < aleat.lenght; i++){
+    console.log(aleat[i])
+}
 
-// var cores = ["rosa", "azul", "branco", "preto"]
+var cores = ["rosa", "azul", "branco", "preto"]
 
-// for(var index in cores){
-// console.log(index) //esse index é o número da caixinha
-// console.log(cores[index]) //mostra o que tem dentro da caixinha
-// }
+for(var index in cores){
+console.log(index) //esse index é o número da caixinha
+console.log(cores[index]) //mostra o que tem dentro da caixinha
+}
 
 //ex vetores
 var nomes = ["Ella", "SZA", "Ariana", "Weeknd", "Lamar", "Doja", "Ty"]
