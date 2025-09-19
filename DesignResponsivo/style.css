@@ -1,0 +1,17 @@
+#box-reponsivo{
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+}
+
+@media screen and (max-width:600px){
+    #box-responsivo{
+        background-color: #FFC0CB;
+    }
+}
+
+@media screen and (orientation: portrait){
+    #box-responsivo{
+        background-color: #ADO8E6;
+    }
+}
