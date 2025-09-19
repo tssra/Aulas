@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo pet - Contato</title>
-    <link rel="icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="icon" href="./documentos/imgs/imagens-aua4/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
    <header>
@@ -21,24 +22,51 @@
 </nav>
    </header>
 
-   <main>
+   <main id="contato">
+    <div class="container">
     <h1>Contatos</h1>
     <p>Olá! Se você tiver alguma dúvida, sugestão ou agendar um horário para o seu amado pet, preencha o formulário abaixo e entraremos em contato o mais breve possível. Teremos o maior prazer em atendê-lo!</p>
 
-    <form action=""></form>
+    <form action="">
+<label for="nome">Nome:</label>
+<input type="text" name="nome" required id="nome" >
+
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+
+<label for="tel">Telefone:</label>
+<input type="tel" name="telefone" required id="tel">
+
+<label for="assunto">Assunto:</label>
+<input type="text" name="assunto" required id="assunto">
+
+<label for="mensagem">Mensagem:</label>
+<textarea rows="5" name="mensagem"></textarea>
+
+<input type="submit" name="enviar">
+    </form>
+    </div>
+
+    <div id="mapa">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.4627723128538!2d-40.28954006153443!3d-20.313280764665077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817cf17865ee1%3A0x39dd8e608645944!2sShopping%20Vit%C3%B3ria!5e0!3m2!1spt-BR!2sbr!4v1758308301846!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
    </main>
 
    <footer>
+    <div class="container">
     <p>Todos os direitos reservados &copy; 2025</p>
-    <div>
+    <div id="midias-sociais">
         <a href="https://www.instagram.com/" target="_blank">
-            <img src="./documentos/imgs/imagens-aua4/icon-instagram.png" alt="Mídia social: instagram mundo pet">
+            <img src="./documentos/imgs/imagens-aua4/icon-instagram.png" alt="Mídia social: instagram mundo pet" width="35">
         </a>
-    </div>
     <div>
         <a href="https://www.whatsapp.com/?lang=pt_PT" target="_blank">
-            <img src="./documentos/imgs/imagens-aua4/icon-whatsapp.png" alt="Fale conosco pelo whatsapp">
+            <img src="./documentos/imgs/imagens-aua4/icon-whatsapp.png" alt="Fale conosco pelo whatsapp" width="35">
         </a>
+    </div>
+    </div>
     </div>
    </footer>
 </body>
